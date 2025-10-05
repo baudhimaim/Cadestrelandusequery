@@ -1,4 +1,4 @@
-const csvUrl = "https://raw.githubusercontent.com/baudhimaim/Cadestrelandusequery/refs/heads/main/Baudhimai.csv";
+const csvUrl = "https://raw.githubusercontent.com/baudhimaim/Cadestrelandusequery/refs/heads/main/baudhimai.csv";
 let csvData = [];
 
 // Fetch CSV data on page load
@@ -99,5 +99,6 @@ function displayResults(results) {
     table.appendChild(tbody);
     resultsDiv.appendChild(table);
 }
+
 
 
